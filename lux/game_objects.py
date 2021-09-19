@@ -115,11 +115,11 @@ class Unit:
         """
         return self.cooldown < 1
 
-    def move(self, dir) -> str:
+    def move(self, direction) -> str:
         """
         return the command to move unit in the given direction
         """
-        return "m {} {}".format(self.id, dir)
+        return "m {} {}".format(self.id, direction)
 
     def transfer(self, dest_id, resourceType, amount) -> str:
         """

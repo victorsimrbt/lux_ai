@@ -1,6 +1,6 @@
 from typing import get_args
 from lux.game import Game
-from data_access import *
+from data_processing.data_access import *
 from evaluation import *
 
 game_state = None
